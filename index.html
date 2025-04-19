@@ -3,42 +3,78 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu primeiro Site</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hubballi&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/fa9024d3f0.js" crossorigin="anonymous"></script>
+
+    <title>Curriculo</title>
 </head>
 <body>
+    <div id="header">
+        <div id="nameAndTitle">
+            <h1>João Pedro</h1>
+            <h2>Analista COA</h2>
+        </div>
+    </div>
+    <div id="container">
+        <div id="sidebar">
+            <div class="card">
+                <h3>Contato</h3>
+                <ul id="contact">
+                    <li><i class="fa-solid fa-envelope"></i>exemplo@email.com</li>
+                    <li><i class="fa-solid fa-phone"></i>12 1234 5678</li>
+                    <li><i class="fa-solid fa-location-dot"></i>Ribeirão Preto, SP</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Skills</h3>
+                    <ul id="skills">
+                        <li><i class="fa-brands fa-html5" style="color: #b31e1e;"></i>HTML</li>
+                        <li><i class="fa-brands fa-css3-alt" style="color: #74C0FC;"></i>CSS</li>
+                        <li><i class="fa-brands fa-js" style="color: #FFD43B;"></i>JAVA SCRIPT</li>
+                    </ul>
+            </div>
+                <div class="card">
+                    <h3>Formação Acadêmica</h3>
+                    <ul>
+                    <li>Analista de Sistemas</li>
+                    <li>Técnico em Informatica</li>
+                    </ul>
+                </div>
+                <div class="card">
+                    <h3>Links</h3>
+                        <ul>
+                            <li><a href="" target="_blank">Linkedin</a></li>
+                            <li><a href="" target="_blank">Facebook</a></li>
+                        </ul>
+                </div>
+        </div>
+        <div id="content">
+            <div class="card">
+                <h3>Sobre mim</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam iure tempora obcaecati consequatur nemo at! Possimus, iste ea! Quaerat, obcaecati nam? Quas repellat necessitatibus quis dicta excepturi repellendus dolore eveniet. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia temporibus sit voluptatum dolorem maiores esse saepe doloremque, error rerum harum eum sint corporis nesciunt aperiam, animi dolore. Praesentium, quis deleniti!. Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea maxime sit facere deleniti, officia tempora sapiente magnam soluta laboriosam! Fuga eveniet provident amet natus possimus, cumque voluptas optio unde consequatur?</p>
+            </div>
+            <div class="card">
+                <h3>Experiências Profissionais</h3>
+                <p>
+                    <b>Royal Ferragens e Ferramentas - Jan/20 a Fev/22 </b><br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li>Vendedor</li>
+                    </ul>
 
-    <!--Cabeçalho-->
+                    <b>Maqcampo John Deere - Jan/23 a Fev/24 </b><br>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+                    <ul>
+                        <li>Estoquista</li>
+                    </ul>
 
-    <h1>Meu Curricum</h1>
-
-    <img src="./imagens/OIP.jpg" width="100" alt="">
-
-    <h2>Informações Pessoais</h2>
-    <ul>
-        <li><b>Nome:</b> Finn</li>
-        <li><b>Telefone:</b> (99) 999999999</li>
-        <li><b>E-mail:</b> Finndeouu@jake.com</li>
-    </ul>
-
-    <!--Conteúdo-->
-
-    <h2>Links</h2>
-    <ul>
-        <li><a href="#" target="_blank">Linkedin</a></li>
-        <li><a href="#" target="_blank">Facebook</a></li>
-    </ul>
-
-    <h3>Contatos</h3>
-    <h3>Endereço</h3>
-    <h3>Experiência Profissional</h3>
-    <ul>
-        <li>Mestre da Espada</li>
-        <li>O ultimo humano</li>
-
-    </ul>
-    <p>
-        <iframe width="1903" height="776" src="https://www.youtube.com/embed/JKrOxz9Xdqk" title="Hora de Aventura Brasil | Elementos Parte 4: Nublado | Cartoon Network" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-    </p>
-
+                </p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
