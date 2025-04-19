@@ -1,2 +1,2 @@
 # Pagina-ideia-de-Curr-culo
-Uma Pagina ideia de Curriculo
+Uma Pagina de uma ideia de Curriculo
